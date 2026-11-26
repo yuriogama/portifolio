@@ -33,10 +33,12 @@ export default function Hero() {
             Desenvolvedor Full Stack especialista em VTEX
           </h1>
           <p className="lead rise" style={{ "--d": "120ms" } as CSSProperties}>
-            Sou {site.shortName}, com 6 anos de experiência. Construi lojas em VTEX
-            IO do zero, desenvolvi aplicações em React e TypeScript e sustentei
-            sistemas corporativos em C# e .NET, da estrutura inicial ao suporte
-            depois do deploy.
+            Desenvolvedor Full Stack com 6 anos de experiência em
+            desenvolvimento e sustentação de soluções digitais, com atuação em
+            projetos de e-commerce, sistemas corporativos e integrações.
+            Construi lojas em VTEX IO do zero, desenvolvi aplicações em React e
+            TypeScript e sustentei sistemas corporativos em C# e .NET, da
+            estrutura inicial ao suporte depois do deploy.
           </p>
           <div
             className="cta-row rise"
