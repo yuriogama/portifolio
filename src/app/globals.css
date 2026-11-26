@@ -86,14 +86,21 @@ svg {
 .section-head h2 {
   font-size: clamp(30px, 4.4vw, 48px);
   font-weight: 700;
+  text-align: center;
 }
 .section-head p {
   margin-top: 14px;
   color: var(--muted);
   font-size: 18px;
-  max-width: 56ch;
+  text-align: center;
 }
 
+.contactBox .revelBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 /* ---------- Botões e links ---------- */
 .btn {
   display: inline-flex;
@@ -1016,10 +1023,9 @@ svg {
 
 /* ---------- Contato ---------- */
 .contact {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: clamp(32px, 6vw, 80px);
-  align-items: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .contact-art {
   max-width: 380px;
