@@ -23,7 +23,7 @@ export const nav = [
   { href: "#csharp", label: "C# .NET" },
   { href: "#stack", label: "Stack" },
   { href: "#experiencia", label: "Experiência" },
-  { href: "#contato", label: "Contato" },
+  // { href: "#contato", label: "Contato" },
 ];
 
 /**

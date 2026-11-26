@@ -6,7 +6,7 @@ import Reveal from "../Reveal";
 export default function Contact() {
   return (
     <section id="contato" className="section">
-      <div className="container contact">
+      {/* <div className="container contact">
         <Reveal>
           <div>
             <div className="section-head left">
@@ -46,7 +46,7 @@ export default function Contact() {
         <Reveal delay={100}>
           <ContactForm />
         </Reveal>
-      </div>
+      </div> */}
     </section>
   );
 }
