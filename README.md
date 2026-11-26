@@ -10,7 +10,6 @@ Next.js 14 (App Router) + React 18 + TypeScript. Envio de e-mail via Gmail (Node
 
 ### 2. Instalar dependências
 ```bash
-cd portfolio-yuri-gama
 npm install
 ```
 
