@@ -6,12 +6,12 @@ import Reveal from "../Reveal";
 export default function Contact() {
   return (
     <section id="contato" className="section">
-      {/* <div className="container contact">
-        <Reveal>
-          <div>
+      <div className="container contact" >
+        <Reveal className="contactBox">
+          <div className="revelBox">
             <div className="section-head left">
-              <h2>Vamos conversar sobre sua loja VTEX</h2>
-              <p>Conte o que você precisa. Respondo pelo e-mail que você informar.</p>
+              <h2>Vamos conversar!</h2>
+              <p>Entre em contato comigo por algum desses meior abaixo e responderei o quanto antes.</p>
             </div>
             <div className="contact-art">
               <Illustration name="mail" />
@@ -43,10 +43,10 @@ export default function Contact() {
             </ul>
           </div>
         </Reveal>
-        <Reveal delay={100}>
+        {/* <Reveal delay={100}>
           <ContactForm />
-        </Reveal>
-      </div> */}
+        </Reveal> */}
+      </div>
     </section>
   );
 }
